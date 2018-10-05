@@ -36,10 +36,21 @@
                     <h1>Restaurant</h1>
                 </div>
                 <div class="col-sm-4">
+                        <div class="visible-sm-">
+                        <!--   <ul>
+                                <li><a href="about">About</a></li>
+                                <li><a href="events">Events</a></li>
+                                <li><a href="menu">Menu</a></li>
+                                <li><a href="gallery">Gallery</a></li>
+                                <li><a href="contacts">Contacts</a></li>
+                                <li><a href="blog">Blog</a></li>
+                            </ul>
+                        </div>
+                    -->
                     <form action="http://www.example.com/profile.php">
                         <select name="menu">
                             <option value="about">About</option>
-                            <option value="events">Events</option>
+                            <option value="events">Events  </option>
                             <option value="menu">Menu</option>
                             <option value="gallery">Gallery</option>
                             <option value="contacts">Contacts</option>
@@ -57,8 +68,11 @@
                 <div class="col-sm-6">
                     <h2>Top quality ingredients only in our kitchen!</h2>
                 </div>
-                <div class="col-sm-6">
-                    <input type="text" placeholder="Search..">
+                <div class="sear col-sm-6">
+                    <form class="search" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -67,8 +81,8 @@
     <div class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <img src="http://placehold.it/200x100">
+                <div class="img col-sm-12">
+                    <img src="images/hero.jpg">
                 </div>
             </div>
         </div>
@@ -77,36 +91,38 @@
     <div class="marketing">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-4">
     
-                    <img src="http://placehold.it/200x200">
+                    <img src="images/pic1.jpg">
                     <h4>Location Finder</h4>
                     <p>Lorem ipsum dolor sit.</p>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-4">
 
-                    <img src="http://placehold.it/200x200">    
+                    <img src="images/pic2.jpg">    
                     <h4>Food Quality & Menu</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="col-sm-2">
-                    <img src="http://placehold.it/200x200">
+                <div class="col-sm-4">
+                    <img src="images/pic3.jpg">
                     <h4>Employment</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="col-sm-2">
-                    <img src="http://placehold.it/200x200">
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/pic4.jpg">
                     <h4>Our Story</h4>
                     <p>Lorem ipsum dolor sit.</p>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-4">
 
-                    <img src="http://placehold.it/200x200">
+                    <img src="images/pic5.jpg">
                     <h4>Promotions</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="col-sm-2">
-                    <img src="http://placehold.it/200x200">
+                <div class="col-sm-4">
+                    <img src="images/pic6.jpg">
                     <h4>Fresh Ideas</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>

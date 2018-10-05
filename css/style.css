@@ -7,7 +7,7 @@
 }
 .socialbar ul{
    list-style: none;
-   text-align: center;
+   text-align: right;
    margin: 0;
    padding: 0;
 }
@@ -32,21 +32,31 @@
     background-image: linear-gradient(to top, #de493c, #e34f42, #e75548, #ec5b4e, #f06154);
 }
 .nav-bar .res{
+    text-align: left;
     font-weight: 900;
 }
 .search{
-    text-align: center;
+    text-align: left;
     color: #803725;
     background-color: #fcf7cf;
 }
-input[type=text]{
-    width: 80%;
-    border: 2px solid #803725;
-    font-size: 20px;
+.sear{
+    text-align: right;
+    padding-top: 20px;
+    font-size: 17px;
+    border: 1px solid #803725;
+    width: 40%;
     background: #fcf7cf;
-    background-image: url('searchicon.jpg');
-    background-position: 5px 5px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    margin-top: 20px;
+}
+.hero{
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+.img{
+    align-self: auto;
+}
+.marketing{
+    background-color: #f5efdc;
+    padding-right: 10px;
 }
